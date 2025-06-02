@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Markdown Viewer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="theme1.css" />
+</head>
+<body>
+  <div class="header">
+    <!-- <input type="file" id="fileInput" multiple />
+    <button id="clearAllBtn">Clear All</button> -->
+    <label for="fileInput" class="btn">Choose Files</label>
+    <input type="file" id="fileInput" multiple style="display:none;" />
+    <button id="clearBtn" class="btn">Clear</button>
+
+  </div>
+  <div id="content" class="popup-container"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
