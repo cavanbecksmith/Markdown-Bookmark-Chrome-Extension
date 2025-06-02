@@ -1,4 +1,4 @@
-# Chrome Tab Manager
+# Chrome Markdown Bookmark Manager
 
 A Chrome extension to efficiently manage and organize your open tabs and bookmarks using Markdown link files.
 
